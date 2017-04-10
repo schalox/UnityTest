@@ -3,7 +3,7 @@
 public class PlayerCharacter : MonoBehaviour {
     private GameObject player;
 
-    public float Speed = 1f;
+    public float Speed = 5f;
 	
     void Start()
     {
