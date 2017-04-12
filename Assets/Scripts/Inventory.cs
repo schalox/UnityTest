@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class Inventory
 {
-    public abstract class Item : MonoBehaviour
-    {
-        public string Name { get; protected set; }
-    }
-
     public Dictionary<string, int> ItemList { get; private set; }
 
     public Inventory()

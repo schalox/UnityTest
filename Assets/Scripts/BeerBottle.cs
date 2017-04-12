@@ -1,4 +1,4 @@
-﻿public class BeerBottle : Inventory.Item
+﻿public class BeerBottle : Item
 {
     void Start()
     {

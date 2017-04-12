@@ -1,4 +1,4 @@
-﻿public class FlyMushroom : Inventory.Item
+﻿public class FlyMushroom : Item
 {
     void Start()
     {

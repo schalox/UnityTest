@@ -1,4 +1,4 @@
-﻿public class Raspberry : Inventory.Item
+﻿public class Raspberry : Item
 {
     void Start()
     {
