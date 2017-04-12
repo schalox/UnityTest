@@ -1,14 +1,18 @@
 ﻿using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Inventory
 {
     public Dictionary<string, int> ItemList { get; private set; }
+    private Text inventoryText;
 
     public Inventory()
     {
         ItemList = new Dictionary<string, int>();
+        inventoryText = GameObject.Find("InventoryText").GetComponent<Text>();
+        updateInventoryText();
     }
 
     public void AddItem(string item)
@@ -21,6 +25,8 @@ public class Inventory
         {
             ItemList.Add(item, 1);
         }
+
+        updateInventoryText();
     }
 
     public void RemoveItem(string item)
@@ -30,6 +36,7 @@ public class Inventory
         if (ItemList[item] <= 0)
         {
             ItemList.Remove(item);
+            updateInventoryText();
         }
     }
 
@@ -43,5 +50,10 @@ public class Inventory
         }
 
         return inventoryText.ToString();
+    }
+
+    private void updateInventoryText()
+    {
+        inventoryText.text = GetInventoryContents();
     }
 }
