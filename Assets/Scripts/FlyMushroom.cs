@@ -1,4 +1,5 @@
-﻿public class FlyMushroom : Inventory.Item {
+﻿public class FlyMushroom : Inventory.Item
+{
     void Start()
     {
         Name = "Fly Mushroom";

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 
-public class PlayerCharacter : MonoBehaviour {
+public class PlayerCharacter : MonoBehaviour
+{
     private Rigidbody2D playerBody;
 
     public float Speed = 3f;
@@ -20,7 +21,8 @@ public class PlayerCharacter : MonoBehaviour {
         Inventory = new Inventory();
     }
 
-	void FixedUpdate () {
+    void FixedUpdate()
+    {
         // get keyboard or touch screen input
         userInputX = Input.GetAxisRaw("Horizontal");
         userInputY = Input.GetAxisRaw("Vertical");

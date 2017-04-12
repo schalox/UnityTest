@@ -1,4 +1,5 @@
-﻿public class Raspberry : Inventory.Item {
+﻿public class Raspberry : Inventory.Item
+{
     void Start()
     {
         Name = "Raspberry";

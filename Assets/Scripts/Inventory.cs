@@ -2,8 +2,10 @@
 using System.Text;
 using UnityEngine;
 
-public class Inventory {
-    public abstract class Item : MonoBehaviour {
+public class Inventory
+{
+    public abstract class Item : MonoBehaviour
+    {
         public string Name { get; protected set; }
     }
 
@@ -19,7 +21,8 @@ public class Inventory {
         if (ItemList.ContainsKey(item))
         {
             ItemList[item]++;
-        } else
+        }
+        else
         {
             ItemList.Add(item, 1);
         }
@@ -43,7 +46,7 @@ public class Inventory {
         {
             inventoryText.AppendLine(string.Format("{0}: {1}", item.Key, item.Value));
         }
-        
+
         return inventoryText.ToString();
     }
 }
