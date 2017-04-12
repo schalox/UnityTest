@@ -36,7 +36,7 @@ public class PlayerCharacter : MonoBehaviour {
     {
         if (otherObject.gameObject.CompareTag("Item"))
         {
-            Item item = otherObject.gameObject.GetComponent<Item>();
+            Inventory.Item item = otherObject.gameObject.GetComponent<Inventory.Item>();
             Debug.Log("Collision with an item named " + item.Name);
             Inventory.AddItem(item.Name);
             otherObject.gameObject.SetActive(false);

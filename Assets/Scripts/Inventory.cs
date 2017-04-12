@@ -1,7 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Text;
+using UnityEngine;
 
 public class Inventory {
+    public abstract class Item : MonoBehaviour {
+        public string Name { get; protected set; }
+    }
+
     public Dictionary<string, int> ItemList { get; private set; }
 
     public Inventory()
@@ -19,7 +24,7 @@ public class Inventory {
             ItemList.Add(item, 1);
         }
     }
-    
+
     public void RemoveItem(string item)
     {
         ItemList[item]--;
@@ -34,11 +39,11 @@ public class Inventory {
     {
         StringBuilder inventoryText = new StringBuilder();
 
-        foreach (var pair in ItemList)
+        foreach (var item in ItemList)
         {
-            inventoryText.AppendLine(string.Format("{0}: {1}", pair.Key, pair.Value));
+            inventoryText.AppendLine(string.Format("{0}: {1}", item.Key, item.Value));
         }
-
+        
         return inventoryText.ToString();
     }
 }
