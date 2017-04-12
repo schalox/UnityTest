@@ -1,26 +1,35 @@
 ﻿using UnityEngine;
 
 public class PlayerCharacter : MonoBehaviour {
-    private GameObject player;
+    private Rigidbody2D playerBody;
 
-    public float Speed = 6f;
+    public float Speed = 3f;
+
+    private float userInputX;
+    private float userInputY;
+
+    private float forceX;
+    private float forceY;
+
     public Inventory Inventory { get; private set; }
-	
+
     void Start()
     {
         // player is the parent object of this script
-        player = this.gameObject;
+        playerBody = this.GetComponent<Rigidbody2D>();
         Inventory = new Inventory();
     }
-    
-	void Update () {
+
+	void FixedUpdate () {
         // get keyboard or touch screen input
-        float userInputX = Input.GetAxis("Horizontal");
-        float userInputY = Input.GetAxis("Vertical");
-        Vector3 movement = new Vector3(userInputX * Speed, userInputY * Speed);
+        userInputX = Input.GetAxisRaw("Horizontal");
+        userInputY = Input.GetAxisRaw("Vertical");
+
+        forceX = userInputX * Speed;
+        forceY = userInputY * Speed;
 
         // move the player according to the user input
-        player.transform.Translate(movement);
+        playerBody.velocity = new Vector2(forceX, forceY);
     }
 
     private void OnTriggerEnter2D(Collider2D otherObject)
