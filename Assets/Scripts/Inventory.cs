@@ -8,6 +8,9 @@ public class Inventory
     public Dictionary<string, int> ItemList { get; private set; }
     private Text inventoryText;
 
+   
+   
+
     public Inventory()
     {
         ItemList = new Dictionary<string, int>();

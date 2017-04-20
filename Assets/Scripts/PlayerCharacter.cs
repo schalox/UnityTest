@@ -14,11 +14,17 @@ public class PlayerCharacter : MonoBehaviour
 
     public Inventory Inventory { get; private set; }
 
+    void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+
     void Start()
     {
         // player is the parent object of this script
         playerBody = this.GetComponent<Rigidbody2D>();
         Inventory = new Inventory();
+        DontDestroyOnLoad(gameObject);
     }
 
     void FixedUpdate()
@@ -44,4 +50,8 @@ public class PlayerCharacter : MonoBehaviour
             otherObject.gameObject.SetActive(false);
         }
     }
+
+    
+
+
 }
