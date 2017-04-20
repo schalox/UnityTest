@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 2ab2e8d929994e949b93f96bc96fc95c
+  - enabled: 1
+    path: Assets/Scenes/Nuuskio.unity
+    guid: 9ee6dc3a28e458046b5738d43cc99c72
