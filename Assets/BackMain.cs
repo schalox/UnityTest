@@ -3,15 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Gate : MonoBehaviour
-{
-    
-   
+public class BackMain : MonoBehaviour {
+
+
     void OnTriggerEnter2D()
     {
-       SceneManager.LoadScene("Korso"); 
+        SceneManager.LoadScene("Main");
     }
-
-    
 }
-    

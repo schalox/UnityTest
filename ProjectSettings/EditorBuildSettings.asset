@@ -7,16 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Main.unity
-<<<<<<< HEAD
   - enabled: 1
-    path: Assets/Scenes/test.unity
-  - enabled: 0
-    path: Assets/Scenes/ns.unity
+    path: Assets/Scenes/Korso.unity
   - enabled: 1
     path: Assets/Scenes/Nuuksio.unity
-=======
-    guid: 2ab2e8d929994e949b93f96bc96fc95c
-  - enabled: 1
-    path: Assets/Scenes/Nuuskio.unity
-    guid: 9ee6dc3a28e458046b5738d43cc99c72
->>>>>>> 361efbeb9dff9b688cdf511415f5d547fca1890a
