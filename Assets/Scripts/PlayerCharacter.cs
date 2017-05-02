@@ -12,10 +12,22 @@ public class PlayerCharacter : MonoBehaviour
     private float forceX;
     private float forceY;
 
+	private static bool playerExists;
+
     public Inventory Inventory { get; private set; }
+
+	//void Awake() {
+	//	DontDestroyOnLoad (gameObject);
+	//}
 
     void Start()
     {
+		if (!playerExists) {
+			playerExists = true;
+			DontDestroyOnLoad (transform.gameObject);
+		} else {
+			Destroy (gameObject);
+		}
         // player is the parent object of this script
         playerBody = this.GetComponent<Rigidbody2D>();
         Inventory = new Inventory();
@@ -44,4 +56,6 @@ public class PlayerCharacter : MonoBehaviour
             otherObject.gameObject.SetActive(false);
         }
     }
+
+
 }
