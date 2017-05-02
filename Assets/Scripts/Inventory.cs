@@ -14,6 +14,9 @@ public class Inventory
 	private static bool UIExists;
 
 
+   
+   
+
     public Inventory()
     {
         ItemList = new Dictionary<string, int>();
