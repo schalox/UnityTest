@@ -6,6 +6,10 @@ public class MainCamera : MonoBehaviour
     private GameObject player;
 
     // Use this for initialization
+	void Awake() {
+		DontDestroyOnLoad (gameObject);
+	}
+
     void Start()
     {
         mainCamera = gameObject;

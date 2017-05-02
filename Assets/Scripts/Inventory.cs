@@ -2,11 +2,17 @@
 using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Inventory
+
+	
 {
     public Dictionary<string, int> ItemList { get; private set; }
     private Text inventoryText;
+	private static bool UIExists;
+
 
    
    

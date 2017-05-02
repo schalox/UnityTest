@@ -1,7 +1,8 @@
 ﻿public class FlyMushroom : Item
 {
-    void Start()
+	public FlyMushroom()
     {
         Name = "Fly Mushroom";
+		Picture = "fly-mushroom";
     }
 }
