@@ -3,9 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LoadSceneKorso : MonoBehaviour {
+public class LoadSceneKorso : MonoBehaviour
+{
 
 
-	void OnTriggerEnter2D(Collider2D Collider)
-	{
-		Debug.Log ("OSUMA");
+    void OnTriggerEnter2D(Collider2D Collider)
+    {
+        Debug.Log("OSUMA");
+        SceneManager.LoadScene("Korso");
+
+    }
+}
