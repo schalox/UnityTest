@@ -12,38 +12,61 @@ public class PlayerCharacter : MonoBehaviour
     private float forceX;
     private float forceY;
 
-	private static bool playerExists;
+    private static bool playerExists;
 
     public Inventory Inventory { get; private set; }
 
-	//void Awake() {
-	//	DontDestroyOnLoad (gameObject);
-	//}
+    private BottleMission bottleMission;
+
+    public string StartPoint;
+
+    public bool canMove;
+
+    //void Awake() {
+    //	DontDestroyOnLoad (gameObject);
+    //}
 
     void Start()
     {
-		if (!playerExists) {
-			playerExists = true;
-			DontDestroyOnLoad (transform.gameObject);
-		} else {
-			Destroy (gameObject);
-		}
+        if (!playerExists)
+        {
+            playerExists = true;
+            DontDestroyOnLoad(transform.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
         // player is the parent object of this script
         playerBody = this.GetComponent<Rigidbody2D>();
         Inventory = new Inventory();
+
+        bottleMission = FindObjectOfType<BottleMission>();
+
+        canMove = true;
     }
 
     void FixedUpdate()
     {
-        // get keyboard or touch screen input
-        userInputX = Input.GetAxisRaw("Horizontal");
-        userInputY = Input.GetAxisRaw("Vertical");
+        if (canMove)
+        {
+            // get keyboard or touch screen input
+            userInputX = Input.GetAxisRaw("Horizontal");
+            userInputY = Input.GetAxisRaw("Vertical");
 
-        forceX = userInputX * Speed;
-        forceY = userInputY * Speed;
+            forceX = userInputX * Speed;
+            forceY = userInputY * Speed;
 
-        // move the player according to the user input
-        playerBody.velocity = new Vector2(forceX, forceY);
+            // move the player according to the user input
+            playerBody.velocity = new Vector2(forceX, forceY);
+
+
+            Inventory.UpdateInventoryText();
+        }
+        else
+        {
+            playerBody.velocity = Vector3.zero;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D otherObject)
@@ -54,8 +77,13 @@ public class PlayerCharacter : MonoBehaviour
             Debug.Log("Collision with an item named " + item.Name);
             Inventory.AddItem(item.Name);
             otherObject.gameObject.SetActive(false);
+
+            string itemName = otherObject.GetComponent<Item>().Name;
+
+            if (bottleMission.Status == MissionStatus.Active && itemName == "Beer Bottle")
+            {
+                bottleMission.UpdateMission();
+            }
         }
     }
-
-
 }

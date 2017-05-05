@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: 06de274813b1bb04192170d47ea94842
+  - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 2ab2e8d929994e949b93f96bc96fc95c
   - enabled: 1
@@ -13,4 +16,4 @@ EditorBuildSettings:
     guid: 9ee6dc3a28e458046b5738d43cc99c72
   - enabled: 1
     path: Assets/Scenes/Korso.unity
-    guid: 00000000000000000000000000000000
+    guid: 3ce6973eabd100049b9cd565ed12fd20

@@ -1,0 +1,126 @@
+Initialize engine version: 5.6.0f3 (497a0f351392)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   Intel
+    VRAM:     1122 MB
+    Driver:   21.20.16.4590
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Ville\Documents\GitHub\UnityTest\Game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Ville\Documents\GitHub\UnityTest\Game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Ville\Documents\GitHub\UnityTest\Game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Ville\Documents\GitHub\UnityTest\Game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Ville\Documents\GitHub\UnityTest\Game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Ville\Documents\GitHub\UnityTest\Game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Ville\Documents\GitHub\UnityTest\Game_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Ville\Documents\GitHub\UnityTest\Game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.024 seconds
+Platform assembly: C:\Users\Ville\Documents\GitHub\UnityTest\Game_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Ville\Documents\GitHub\UnityTest\Game_Data\Managed\System.dll (this message is harmless)
+desktop: 2560x1440 60Hz; virtual: 2560x1440 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 10.705488 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 5968 -> priority: 1 
+  Thread -> id: 42b0 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.310930 ms
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 462)
+
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 483.
+Total: 0.393813 ms (FindLiveObjects: 0.037119 ms CreateObjectMapping: 0.027306 ms MarkObjects: 0.249173 ms  DeleteObjects: 0.079786 ms)
+
+Found player: PlayerCharacter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Disabling the text box
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Start wing mission
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Collision with an item named Fly Mushroom
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Collision with an item named Fly Mushroom
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Collision with an item named Beer Bottle
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Collision with an item named Raspberry
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OSUMA
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.173224 ms
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 443.
+Total: 0.405333 ms (FindLiveObjects: 0.042666 ms CreateObjectMapping: 0.037973 ms MarkObjects: 0.274346 ms  DeleteObjects: 0.049066 ms)
+
+Found player: PlayerCharacter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Disabling the text box
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Moving the player to (1.2, -15.5, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OSUMA
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.010772 ms
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 462)
+
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 535.
+Total: 0.748799 ms (FindLiveObjects: 0.074239 ms CreateObjectMapping: 0.055466 ms MarkObjects: 0.540586 ms  DeleteObjects: 0.077653 ms)
+
+Moving the player to (51.5, -52.7, 0.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Found player: PlayerCharacter
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Disabling the text box
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Collision with an item named Fly Mushroom
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Collision with an item named Beer Bottle
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Collision with an item named Fly Mushroom
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+

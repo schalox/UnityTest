@@ -2,26 +2,24 @@
 using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
-using UnityEngine.SceneManagement;
 
 public class Inventory
 
-	
+
 {
     public Dictionary<string, int> ItemList { get; private set; }
     private Text inventoryText;
-	private static bool UIExists;
+    private static bool UIExists;
 
 
-   
-   
+
+
 
     public Inventory()
     {
         ItemList = new Dictionary<string, int>();
         inventoryText = GameObject.Find("InventoryText").GetComponent<Text>();
-        updateInventoryText();
+        UpdateInventoryText();
     }
 
     public void AddItem(string item)
@@ -35,7 +33,7 @@ public class Inventory
             ItemList.Add(item, 1);
         }
 
-        updateInventoryText();
+        UpdateInventoryText();
     }
 
     public void RemoveItem(string item)
@@ -45,7 +43,7 @@ public class Inventory
         if (ItemList[item] <= 0)
         {
             ItemList.Remove(item);
-            updateInventoryText();
+            UpdateInventoryText();
         }
     }
 
@@ -61,7 +59,7 @@ public class Inventory
         return inventoryText.ToString();
     }
 
-    private void updateInventoryText()
+    public void UpdateInventoryText()
     {
         inventoryText.text = GetInventoryContents();
     }

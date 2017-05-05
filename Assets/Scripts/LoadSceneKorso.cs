@@ -5,12 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class LoadSceneKorso : MonoBehaviour
 {
+    public string ExitPoint;
+    private PlayerCharacter player;
 
-
-    void OnTriggerEnter2D(Collider2D Collider)
+    private void Start()
     {
-        Debug.Log("OSUMA");
-        SceneManager.LoadScene("Korso");
+        player = FindObjectOfType<PlayerCharacter>();
+    }
 
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.CompareTag("Player"))
+        {
+            Debug.Log("OSUMA");
+            SceneManager.LoadScene("Korso");
+            player.StartPoint = ExitPoint;
+        }
     }
 }
