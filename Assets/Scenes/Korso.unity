@@ -227,7 +227,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25, y: 0.25}
+  m_Size: {x: 0.2, y: 0.2}
   m_EdgeRadius: 0
 --- !u!4 &70380427
 Transform:
@@ -366,11 +366,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4295823348182216, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1792842220614132, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
       propertyPath: m_Name
-      value: BeerBottle (4)
+      value: BeerBottle1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
@@ -417,7 +417,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4295823348182216, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792842220614132, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
+      propertyPath: m_Name
+      value: BeerBottle5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
@@ -475,6 +479,154 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 264255336}
   m_Script: {fileID: 11500000, guid: d4cf7071f10e52c4aaf1015f36fa8098, type: 3}
+--- !u!1001 &275545875
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1491494422}
+    m_Modifications:
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -24.754719
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 12.533712
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740632827458992, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_Name
+      value: FlyMushroom0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &275545876 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7,
+    type: 2}
+  m_PrefabInternal: {fileID: 275545875}
+--- !u!1001 &376542656
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1491494422}
+    m_Modifications:
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.1885686
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -14.387987
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740632827458992, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_Name
+      value: FlyMushroom5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &623994184
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1491494422}
+    m_Modifications:
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -30.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740632827458992, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_Name
+      value: FlyMushroom2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &623994185 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7,
+    type: 2}
+  m_PrefabInternal: {fileID: 623994184}
 --- !u!1001 &625019011
 Prefab:
   m_ObjectHideFlags: 0
@@ -512,11 +664,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1740632827458992, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
       propertyPath: m_Name
-      value: FlyMushroom (1)
+      value: FlyMushroom4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
@@ -563,11 +715,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4295823348182216, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1792842220614132, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
       propertyPath: m_Name
-      value: BeerBottle (1)
+      value: BeerBottle4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
@@ -614,7 +766,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740632827458992, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_Name
+      value: FlyMushroom3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
@@ -826,11 +982,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4295823348182216, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1792842220614132, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
       propertyPath: m_Name
-      value: BeerBottle (2)
+      value: BeerBottle3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
@@ -851,7 +1007,7 @@ GameObject:
   - component: {fileID: 1438625344}
   - component: {fileID: 1438625343}
   m_Layer: 0
-  m_Name: DialogZone
+  m_Name: DaveDialogZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -936,8 +1092,12 @@ Transform:
   m_LocalPosition: {x: -0.25246388, y: 1.6490769, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 275545876}
+  - {fileID: 2134721655}
+  - {fileID: 623994185}
   - {fileID: 912486066}
   - {fileID: 625019012}
+  - {fileID: 2024608815}
   - {fileID: 2119233907}
   - {fileID: 100046591}
   - {fileID: 1920739760}
@@ -984,11 +1144,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4295823348182216, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1792842220614132, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
       propertyPath: m_Name
-      value: BeerBottle (3)
+      value: BeerBottle2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
@@ -1050,6 +1210,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a2709eef132b5324b94eda61851d9ddc, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &2024608815 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7,
+    type: 2}
+  m_PrefabInternal: {fileID: 376542656}
 --- !u!1001 &2119233906
 Prefab:
   m_ObjectHideFlags: 0
@@ -1087,11 +1252,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4295823348182216, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1792842220614132, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
       propertyPath: m_Name
-      value: BeerBottle (5)
+      value: BeerBottle0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
@@ -1101,3 +1266,54 @@ Transform:
   m_PrefabParentObject: {fileID: 4295823348182216, guid: 6f457b30b8aadbb4ea6d439b93349298,
     type: 2}
   m_PrefabInternal: {fileID: 2119233906}
+--- !u!1001 &2134721654
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1491494422}
+    m_Modifications:
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -8.927536
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 14.240923
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740632827458992, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_Name
+      value: FlyMushroom1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &2134721655 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7,
+    type: 2}
+  m_PrefabInternal: {fileID: 2134721654}

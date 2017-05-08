@@ -7,7 +7,14 @@ public class Inventory
 
 
 {
+    /// <summary>
+    /// Dictionary to hold the items.
+    /// </summary>
     public Dictionary<string, int> ItemList { get; private set; }
+
+    /// <summary>
+    /// Text box which shows the inventory to the player.
+    /// </summary>
     private Text inventoryText;
     private static bool UIExists;
 
@@ -22,6 +29,10 @@ public class Inventory
         UpdateInventoryText();
     }
 
+    /// <summary>
+    /// Add an item to the inventory.
+    /// </summary>
+    /// <param name="item">Item to add.</param>
     public void AddItem(string item)
     {
         if (ItemList.ContainsKey(item))
@@ -36,6 +47,10 @@ public class Inventory
         UpdateInventoryText();
     }
 
+    /// <summary>
+    /// Remove an item from the inventory.
+    /// </summary>
+    /// <param name="item">Item to remove.</param>
     public void RemoveItem(string item)
     {
         ItemList[item]--;
@@ -47,6 +62,10 @@ public class Inventory
         }
     }
 
+    /// <summary>
+    /// Get inventory's contents in text form.
+    /// </summary>
+    /// <returns>String representation of the inventory.</returns>
     public string GetInventoryContents()
     {
         StringBuilder inventoryText = new StringBuilder();
@@ -59,6 +78,9 @@ public class Inventory
         return inventoryText.ToString();
     }
 
+    /// <summary>
+    /// Update the inventory text on the screen.
+    /// </summary>
     public void UpdateInventoryText()
     {
         inventoryText.text = GetInventoryContents();

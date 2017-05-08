@@ -494,6 +494,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1740632827458992, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_Name
+      value: FlyMushroom3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
   m_IsPrefabParent: 0
@@ -614,7 +618,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1740632827458992, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
       propertyPath: m_Name
-      value: FlyMushroom
+      value: FlyMushroom4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
@@ -780,7 +784,7 @@ Prefab:
     - target: {fileID: 224337026791925628, guid: 1b2e8d0e0d41d8848bc5b2d60f5afef2,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 51
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 224337026791925628, guid: 1b2e8d0e0d41d8848bc5b2d60f5afef2,
         type: 2}
@@ -811,6 +815,79 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114694005634868612, guid: 1b2e8d0e0d41d8848bc5b2d60f5afef2,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e289abcf6451ff94491086ac566c8af9,
+        type: 3}
+    - target: {fileID: 114799896430585032, guid: 1b2e8d0e0d41d8848bc5b2d60f5afef2,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114799896430585032, guid: 1b2e8d0e0d41d8848bc5b2d60f5afef2,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114799896430585032, guid: 1b2e8d0e0d41d8848bc5b2d60f5afef2,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231624036865722, guid: 1b2e8d0e0d41d8848bc5b2d60f5afef2, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224145613215828932, guid: 1b2e8d0e0d41d8848bc5b2d60f5afef2,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224145613215828932, guid: 1b2e8d0e0d41d8848bc5b2d60f5afef2,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224145613215828932, guid: 1b2e8d0e0d41d8848bc5b2d60f5afef2,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224145613215828932, guid: 1b2e8d0e0d41d8848bc5b2d60f5afef2,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224145613215828932, guid: 1b2e8d0e0d41d8848bc5b2d60f5afef2,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 224145613215828932, guid: 1b2e8d0e0d41d8848bc5b2d60f5afef2,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224145613215828932, guid: 1b2e8d0e0d41d8848bc5b2d60f5afef2,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224145613215828932, guid: 1b2e8d0e0d41d8848bc5b2d60f5afef2,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1231624036865722, guid: 1b2e8d0e0d41d8848bc5b2d60f5afef2, type: 2}
+      propertyPath: m_Name
+      value: DialogPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1379836467477800, guid: 1b2e8d0e0d41d8848bc5b2d60f5afef2, type: 2}
+      propertyPath: m_Name
+      value: DialogBox
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b2e8d0e0d41d8848bc5b2d60f5afef2, type: 2}
@@ -853,6 +930,10 @@ Prefab:
     - target: {fileID: 4295823348182216, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792842220614132, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
+      propertyPath: m_Name
+      value: BeerBottle0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
@@ -1087,6 +1168,80 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1128846119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1128846120}
+  - component: {fileID: 1128846122}
+  - component: {fileID: 1128846121}
+  m_Layer: 5
+  m_Name: DialogInstruction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1128846120
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1128846119}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1571592749}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 210, y: -4}
+  m_SizeDelta: {x: 200, y: 30}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1128846121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1128846119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 2
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Press Space to continue...
+--- !u!222 &1128846122
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1128846119}
 --- !u!4 &1180309967 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4114008737436022, guid: 468096b4568b4e444b0efae3c855f4b7,
@@ -1215,7 +1370,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25, y: 0.25}
+  m_Size: {x: 0.2, y: 0.2}
   m_EdgeRadius: 0
 --- !u!50 &1237210779
 Rigidbody2D:
@@ -1452,7 +1607,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1740632827458992, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
       propertyPath: m_Name
-      value: FlyMushroom
+      value: FlyMushroom0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
@@ -1608,6 +1763,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 1740632827458992, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_Name
+      value: FlyMushroom2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
   m_IsPrefabParent: 0
@@ -1651,7 +1810,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 10, y: -10}
-  m_SizeDelta: {x: 220, y: 250}
+  m_SizeDelta: {x: 220, y: 150}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1420261620
 MonoBehaviour:
@@ -1718,8 +1877,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 10, y: -31}
-  m_SizeDelta: {x: 220, y: 250}
+  m_AnchoredPosition: {x: 10, y: -40}
+  m_SizeDelta: {x: 220, y: 150}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1510602239
 MonoBehaviour:
@@ -2005,6 +2164,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1740632827458992, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
+      propertyPath: m_Name
+      value: FlyMushroom1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 468096b4568b4e444b0efae3c855f4b7, type: 2}
   m_IsPrefabParent: 0
@@ -2051,6 +2214,10 @@ Prefab:
     - target: {fileID: 4295823348182216, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792842220614132, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}
+      propertyPath: m_Name
+      value: BeerBottle1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6f457b30b8aadbb4ea6d439b93349298, type: 2}

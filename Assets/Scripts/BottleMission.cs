@@ -3,7 +3,14 @@
 public class BottleMission : Mission
 {
     public PlayerCharacter Player;
+    /// <summary>
+    /// How many bottles the player needs to collect.
+    /// </summary>
     public int BottleGoal;
+
+    /// <summary>
+    /// Text field which shows the mission's progress.
+    /// </summary>
     public Text StatusText;
 
     void Start()
@@ -15,6 +22,9 @@ public class BottleMission : Mission
         StatusText = GetComponent<Text>();
     }
 
+    /// <summary>
+    /// Update the status text based on the amount of bottled in the player's inventory.
+    /// </summary>
     public void UpdateMission()
     {
         int bottleCount;

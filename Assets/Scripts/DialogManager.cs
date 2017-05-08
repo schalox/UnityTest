@@ -5,11 +5,19 @@ using UnityEngine.UI;
 
 public class DialogManager : MonoBehaviour
 {
-
+    /// <summary>
+    /// The panel which contains the text field.
+    /// </summary>
     public GameObject textBox;
 
+    /// <summary>
+    /// The text field where the dialog is shown.
+    /// </summary>
     public Text theText;
 
+    /// <summary>
+    /// The text file where the dialog is read from.
+    /// </summary>
     public TextAsset textFile;
     public string[] textLines;
 
